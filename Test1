@@ -2,8 +2,59 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Titre</title>
+        <title>Profil</title>
     </head>
-    <body>
+	
+	<h1>Mon Profil</h1>
+
+        <p>
+                <i>(Merci de remplir les champs obligatoires marqués d'une *)</i>
+
+		
+        <label for="prenom"> Prénom* </label>
+        <input type="text" name="prenom" required/>
+        <label for="nom"> Nom* </label>
+        <input type="text" name="nom" required/>
+        <br />
+        <br />
+				
+
+		<label for="birthDate"> Date de naissance* </label>
+        <input type="date" name="birthDate" required/>
+        <br />
+        <br />
+
+	
+    	<label for="niveau"> Niveau* </label>
+        <select name="niveau" required>
+        	<option></option>
+        	<option>Débutant</option>
+        	<option>1</option>
+        	<option>Moyen</option>
+        	<option>Compétition</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="club"> Poste* </label>
+        <select name="club" required> 
+            <option value="Lyon">Attaquant</option>
+            <option value="Chambery">Défenseur</option>
+            <option value="Toulouse">Gardien</option>
+            <option value="Bordeaux">Milieu</option>
+        </select>
+
+        <br />
+        <br />
+
+    	<label for="equipe"> Equipe </label>
+        <textarea name="equipe"> </textarea>
+        <br />
+        <br />
+
+        
+    		
+       
+     </p>
     </body>
 </html>
