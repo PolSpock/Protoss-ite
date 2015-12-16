@@ -12,29 +12,57 @@
 		<!-- FONTS -->
 		<link href="css/fonts-css.css" rel="stylesheet">
 		
-		</head>
+		<style>
+			video#bgvid {
+				position: fixed; right: 0; bottom: 0;
+				right:0px;
+				left:0px;
+				top:0px;
+				bottom:0px;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:auto;
+				z-index: -100;
+				background-size: cover;
+			}
+		</style>
+		
+	</head>
 	<body>
+		<!-- BACKGROUND START -->
+		<video autoplay loop muted poster="img/anim_poster.png" id="bgvid">
+			<source src="img/anim.mp4" type="video/mp4">
+		</video>
+		<!-- BACKGROUND END -->
+	
+		<div style="background-color: rgba(0,0,0,0.2); background-size:cover; width:100%; height:100%; z-index:-1; position:fixed;">
+		
+		</div>
 	
 		<!-- INTRO START -->
-		<div style="background-color: #E6E6E6">
-			<div style="height:20px;"></div>
+		<div class="container-fluid" style="margin: auto auto 10% auto;">
+			<div style="height:75px;"></div>
 			<div class="row">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><img src="img/merde.jpg" height="100" width="100"></div>
-				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10"></div>
-			</div>
-			<div style="height:70px;"></div>
-
-			<div class="row">
-				<div class="col-xs-2 col-sm-2 col-md-8 col-lg-8"></div>
-				<div class="col-xs-10 col-sm-10 col-md-3 col-lg-3">
-					<p style="font-family: Fragmentcore; font-size: 40px;">Think sports <br>think health </br>think together.</p>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p style="color:white; font-family: Comfortaa-Bold; font-size: 40px; text-align:center;">Social Sport Connect</p>
 				</div>
-				<div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
 			</div>
+			<div class="row">
+				<div class="col-xs-2 col-sm-9 col-md-9 col-lg-9"></div>
+				<div class="col-xs-10 col-sm-3 col-md-3 col-lg-3">
+					<p style="color:white; font-family: Fragmentcore; font-size: 40px;">think sports <br>think health </br>think together.</p>
+				</div>
+			</div>
+			<div style="height:15em;"></div>
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ></div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;"><img src="img/twitter.png" height="40" width="40"><img src="img/facebook.png" height="40" width="40"><img src="img/youtube.png" height="40" width="40"><img src="img/instagram.png" height="40" width="40"></div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+					<img src="img/PNG/32/social-005_twitter.png">
+					<img src="img/PNG/32/social-006_facebook.png">
+					<img src="img/PNG/32/social-018_youtube.png">
+					<img src="img/PNG/32/social-038_instagram.png">
+				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ></div>
 			</div>
 			<div style="height:20px;"></div>
@@ -44,7 +72,7 @@
 		<!-- CONCEPT START -->
 		<div class="container-fluid" style="background-color: #E6E6E6;">
 			<div style="height:50px;"></div>
-			<div class="row" style="background-color:white;">
+			<div class="row" style="background-color:white; margin-left:-15px; margin-right:-15px;">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align:center; font-family: 'AvenirBlack'; font-size:30px; color:#E6E6E6;">
 					T<span style="font-size:19px;">HE</span> C<span style="font-size:19px">ONCEPT</span>
@@ -56,8 +84,8 @@
 				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
 				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="height:200px; margin:0px; padding:0px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/53q2WOeUW9U" frameborder="0" allowfullscreen></iframe></div>
 				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height:200px; overflow:hidden;">
-					<p style="text-align:justify; font-family: Avenir; font-size: 13px;">If you are like are just like us if…<br/><br/>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height:230px; overflow:hidden;">
+					<p style="text-align:justify; font-family: Avenir; font-size: 13.5px;">If you are like are just like us if…<br/><br/>
 					you are new in your city<br/>
 					you want to share your passion with others<br/>
 					you have stopped being active and you want to get back to sports<br/>
@@ -71,98 +99,104 @@
 			</div>
 			<div style="height:50px;"></div>
 		</div>
-		
-		<div class="container-fluid" style="background-color: #00C9D4;">
-			<div style="height:7px;"></div>
-		</div>
 		<!-- CONCEPT END -->
 		
 		<!-- PRE-SUB START -->
-  		<div style="height:20px;"></div>
-		<div class="row" style="text-align:center;" style="color:black">
-			<div class="col-xs-2 col-sm-2 col-md-4 col-lg-4"></div>
-			<div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
-				<div style="background-color:white; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; border-color:#BCE8F1;" style="color:black">
-					PRE-INSCRIPTION
+		<div class="container-fluid">
+			<div style="padding-bottom:10px; background-color: rgba(150,150,150,0.5); margin:5%; border: 2px solid transparent; border-radius: 1px; border-color:#00C9D4;">
+				<div style="height:20px;"></div>
+				<div class="row" style="text-align:center; background-color:white; color:black;">
+					<div class="col-xs-2 col-sm-2 col-md-4 col-lg-4"></div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+						<div style="background-color:white; text-align:center; font-family: 'AvenirBlack'; font-size:30px; color:#E6E6E6;">
+							P<span style="font-size:19px;">RE</span> I<span style="font-size:19px">NSCRIPTION</span>
+						</div>
+					</div>
+					<div class="col-xs-2 col-sm-2 col-md-4 col-lg-4"></div>
 				</div>
-			</div>
-			<div class="col-xs-2 col-sm-2 col-md-4 col-lg-4"></div>
-		</div>
-		<br />
-		<br />
-		<br />
-		<div class="row">
-			<div class="form-group">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:#ABABAB; text-align:center;"><label for="lastname"> Last Name </label></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><input type="text" id="lastname" placeholder="Last Name"></div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
-			</div>
-		</div>
-
-		<div style="height:40px;"></div>
-
-		<div class="row">
-			<div class="form-group">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:#ABABAB; text-align:center;"><label for="firstname"> First Name </label></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><input type="text" id="firstname" placeholder="First Name"></div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
-			</div>
-		</div>
-
-		<div style="height:40px;"></div>
-
-		<div class="row">
-			<div class="form-group">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:#ABABAB; text-align:center;"><label for="email"> E mail </label></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><input type="email" id="email" placeholder="E mail"></div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
-			</div>
-		</div>
-
-		<div style="height:40px;"></div>
-
-		<div class="row">
-			<div class="form-group">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:#ABABAB; text-align:center;"><label for="mdp"> Mot de passe </label></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><input type="password" id="mdp" placeholder="Mot de passe"></div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
-			</div>
-		</div>
-
-		<div style="height:40px;"></div>
-
-		<div class="row">
-			<div class="form-group">
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:#ABABAB; text-align:center;"><label for="city"> City </label></div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><input type="text" id="city" placeholder="City"></div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
-			</div>
-		</div>
-
-
-		<div style="height:60px;"></div>
-		
-		<div class="row" style="text-align:center; background-color:#00C9D4; height:40px;">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<button type="submit" style="background-color:#00C9D4; margin:10px 0px 10px 0px">Envoyer</button>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="checkbox">
-				<div class="form-group">
+				<div style="height:50px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="lastname">Last Name</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="lastname" type="text" class="form-control" placeholder="Last Name" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="firstname">First Name</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="firstname" type="text" class="form-control" placeholder="First Name" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="email">E-mail</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="email" type="text" class="form-control" placeholder="E-mail" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="password">Password</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="password" type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="repeatpassword">Repeat Password</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="repeatpassword" type="text" class="form-control" placeholder="Repeat Password" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
+					<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3" style="text-align:center; color:white;"><label for="city">City</label></div>
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="input-group">
+							<input id="city" type="text" class="form-control" placeholder="City" aria-describedby="sizing-addon2">
+						</div>
+					</div>						
+					<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+				</div>
+				<div style="height:40px;"></div>
+				<div class="row" style="text-align:center;">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<input style="font-family: 'Avenir'; font-size:20px;" class="btn btn-primary" type="submit" value="Submit">
+					</div>
+				</div>
+				<div class="row" style="font-family: 'Avenir'; font-size:20px;">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"style="text-align:center;">
-						<label><input type="checkbox"> Rester connecté </label>
+						<div class="checkbox">
+							<label><input type="checkbox" value="stayconnect">Stay connected</label>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -170,13 +204,41 @@
 		<!-- PRE-SUB END -->
 		
 		<!-- TEAM START -->
-			<div class="row" style="background-color:white;">
+		<div class="container-fluid" style="background-color: #E6E6E6;">
+			<div style="height:50px;"></div>
+			<div class="row" style="background-color:white; margin-left:-15px; margin-right:-15px;">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align:center; font-family: 'AvenirBlack'; font-size:30px; color:#E6E6E6;">
-					TEAM
+					<div style="background-color:white; text-align:center; font-family: 'AvenirBlack'; font-size:30px; color:#E6E6E6;">
+						T<span style="font-size:19px;">HE</span> T<span style="font-size:19px">EAM</span>
+					</div>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
 			</div>
+			<div style="height:50px;"></div>
+			<div class="row">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="text-align:center;">
+					<img src="img/hugo-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/michel-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/charlotte-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/mathieu-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</div>
+			<div style="height:5px;"></div>
+			<div class="row">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="text-align:center;">
+					<img src="img/hugo-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/michel-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/charlotte-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+					<img src="img/mathieu-team.jpg" width="100" height="100" style="margin:2.5% 5%;" class="img-circle">
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</div>
+			<div style="height:75px;"></div>
+		</div>
 		<!-- TEAM END -->
 	
     	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
